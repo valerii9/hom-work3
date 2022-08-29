@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+#fixed-div{
+width: 100px;
+height: 100px;
+text-align: center;
+border-radius: 50%;
+background-color: #5557689E;
+position: fixed;
+bottom:100px;
+right: 10px;
+}
+#fixed-div a img{
+    padding-top: 25%;
+}
+#fixed-div:hover{
+    background-color: #69749B;
+}
+.wrappermain{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-top: 3rem;
+}
+.topa{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #E8E8E8;   
+}
+.maintop{
+    background-color: #E8E8E8;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    width: 100%;
+    border-style: none;  
+    ;
+}
+.str{
+    
+}
+.build{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    height: 300px;
+    background-color: #BDBDC6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin: 3.5rem 0rem
+}
+.card:hover{
+    background-color: #AEAEE2;
+    box-shadow: 5px 5px 5px #AEAEE2;
+}
+
+.card__img{
+    width: 35%;
+    height: 80%;
+    overflow: hidden;
+}
+.card__img img{
+    height: 100%;
+}
+
+.card__content{
+    width: 50%;
+    height: 80%;
+}
+
+.card__content-title {
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 3px solid white;
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.card__content-description{
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #D7D7DD;
+    overflow: hidden; 
+}
+
+.card-star, .card-btn{
+    position:absolute;
+}
+
+.card-star{
+    right: 1rem;
+    top: 1rem
+}
+.card path:hover{
+    fill: #FFFF00;
+}
+
+.card-btn{
+    bottom: 0;
+    right: -40px;
+    width: 200px;
+    padding: 1rem 0;
+    background-color: #202846;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50px;
+}
+.card-btn:hover{
+    background-color: #EF075B;
+}
+.wrapperheader{
+    display: flex;
+    justify-content: center;
+    background-color: #202846;
+    width: 100%;
+}
+.imgheader1{
+    display: flex;
+    width: 50%;
+    padding-top: 1rem;
+}
+.textheader{
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin: 3rem;
+}
+
+.textheadera{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin: 0rem 2rem;
+}
+.textheadera:hover{
+    color: #AEAEE2;
+    }
+.imgheader2{
+    display: inline-flex;
+    height: 100%;
+    padding-top: 1.5rem;
+}
+.imgheader2-2{
+    width: 100%;
+    padding: 1.5rem 2rem;
+    justify-content: space-evenly;
+}
+.headerbody{
+    background-color: #C6C6DC;
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    padding-left: 10%;
+    box-sizing: border-box;
+    
+}    
+.headerbodyh{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    text-decoration: none;
+    color: #202846;
+}
+.kabinettop{ 
+    Font-family: PT Sans;
+    Font-style: Regular;
+    font-size: 22px;
+    color: #DCDCDC;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+.kabinetheader{
+    background-color: #C6C6DC;
+    width: 100%;
+}
+.kabinetheadera{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    text-decoration: none;
+    color:#202846;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 10%;
+}
+.kabinetcard{
+    width: 70%;
+    background-color: #BDBDC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.kabinet_card__img{
+    width: 55%;
+    padding: 3%;
+    box-sizing: border-box;
+    padding-left: 8%;
+}
+.kabinet_card-btn{
+    width: 200px;
+    padding: 1rem 0;
+    background-color: #484A54;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.kabinet_card-btn:hover{
+    background-color: #69749B;
+}
+.kabinet_card-btn2{
+    width: 200px;
+    padding: 1rem 0;
+    background-color: #484A54;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.kabinet_card-btn2:hover{
+    background-color: #69749B;}
+.kabinet_card__content{
+    width: 70%;
+    padding-right: 7%;
+    
+}
+.kabinet_card__content-title{
+    font-family: PT Sans;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 3px solid white;
+    font-size: 3.6rem;
+}
+.kabinet_card_span1{
+    font-family: PT Sans;
+    font-style: Italic;
+    font-size: 3.3rem;
+    font-weight: 400;
+    color: #202846;
+}
+.kabinet_footer{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.kabinet_card-footer{
+    width: 21.2rem;
+    padding: 1rem 0;
+    background-color: #202846;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.kabinet_card-footer:hover{
+    background-color: #69749B;
+}
+.kontakty{
+    width: 100%;
+    
+}
+.kontaktytop{ 
+        Font-family: PT Sans;
+        Font-style: Regular;
+        font-size: 22px;
+        color: #DCDCDC;
+        padding-left: 2%;
+        box-sizing: border-box;
+        
+    }
+
+    .kontaktyheader{
+        background-color: #C6C6DC;
+        width: 100%;
+        padding-left: 2%;
+        box-sizing: border-box;
+    }
+    .kontaktyheadera{
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 48px;
+        text-decoration: none;
+        color:#202846;}
+    .kontakty_section{
+        padding-left: 2%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        }
+    .kontakty_card__content-title{
+        font-family: PT Sans;
+        font-weight: 400;
+        font-style: italic;
+        border-bottom: 3px solid #202846;
+        font-size: 3.2rem;
+        width: 100%;
+        }
+    .telefon_kontakty{
+        display: block;
+        font-family: PT Sans;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #000000;
+        }
+        .kontakty_card__content-title2{
+            display: flex;
+            width: 100%;
+            font-family: PT Sans;
+            font-weight: 400;
+            font-style: italic;
+            border-bottom: 3px solid #202846;
+            font-size: 3.2rem;
+        }
+        .telefon_kontakty2{
+            font-family: PT Sans;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #000000;
+        }
+        .kontakty_card__content-title3{
+            display: flex;
+            width: 100%;
+            font-family: PT Sans;
+            font-weight: 400;
+            font-style: italic;
+            border-bottom: 3px solid #202846;
+            font-size: 3.2rem;
+        }
+        .telefon_kontakty3{
+        font-family: PT Sans;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 3rem;
+        color: #000000;
+        text-decoration: none;
+        }
+        .kontakty_section{
+        display: flex;
+        margin: 0% 15%;
+        }
+        .kontakty_a{
+        text-decoration: none;
+        color: #000000;
+        }
+        .adres{
+            margin-top: 3%;
+            margin-left: 17%;
+        }
+        .adres_1{
+            width: 12%;
+            font-family: PT Sans;
+            font-weight: 400;
+            font-style: italic;
+            border-bottom: 3px solid #202846;
+            font-size: 3.2rem;
+        }
+        .adres_2{
+            font-family: PT Sans;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 3rem;
+            display: flex;
+        }
+        .mapsuk{
+            margin-left: 13%;
+            margin-bottom: 2%;
+            
+        }
+        .footerf{
+            background-color: #202846;
+            width: 100%;
+            height: 5rem;
+        }
+        .footer_text{
+            font-family: PT Sans;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 3.6rem;
+            color: white;
+            margin-left: 8rem;
+        }
